@@ -1,0 +1,26 @@
+version: v1 
+
+id:
+  org: 1c2ff286-014e-48f9-97bd-9b39dc05f699
+  app: 898b5bc2-c7c8-453c-aa51-fcdf00b4d507
+
+# Optional parameters.
+scanners:
+  - sast
+  - secret
+  - sca
+  - iac
+  - container   
+
+languages:
+  - python
+  - java
+  - C
+  - javascript
+  
+resource:
+  serial_scan: true #true|false
+
+fail_pipeline:
+  risk_rating: 9
+  
