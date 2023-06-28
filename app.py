@@ -25,7 +25,7 @@ def mobileapp():
 def uuidchecking():
    return ""
 
-@app.route('/forti-uui.html')
+@app.route('/forti-uuid.html')
 def uuidDetailCheck():
    return "<forti-uuid hidden>9efc421d-d5e3-4a09-b1fe-6d3b63883378</forti-uuid>"
 
