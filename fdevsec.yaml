@@ -10,11 +10,16 @@ scanners:
   - secret
   - sca
   - iac
-  - container   
+  - container
+  - dast
 
 languages:
   - python
   - javascript
+
+dast:
+  url: http://www.cjcloud.shop
+  full_scan: true
 
 resource:
   serial_scan: true #true|false
