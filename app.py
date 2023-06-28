@@ -14,19 +14,22 @@ pwd="zxcv@asdf"
 def Home():
    hostname=socket.gethostname()
    ipAddr=socket.gethostbyname(hostname)
-   return "<h1>Hello Jew333, "+hostname+", "+ipAddr+"</h1>"
+   return "<h1>Hello Jew, "+hostname+", "+ipAddr+"</h1>"
 
 @app.route('/mobileapp')
 def mobileapp():
    return "<h1>This is return from mobile app.</h1>"
 
-@app.route('/5.html')
+##### This part is for DAST testing #####
+@app.route('/9efc421d-d5e3-4a09-b1fe-6d3b63883378.html')
 def uuidchecking():
    return ""
 
 @app.route('/forti-uui.html')
 def uuidDetailCheck():
-   return "<forti-uuid hidden>5</forti-uuid>"
+   return "<forti-uuid hidden>9efc421d-d5e3-4a09-b1fe-6d3b63883378</forti-uuid>"
+
+#####
 
 if __name__ == '__main__':
  app.debug = True
