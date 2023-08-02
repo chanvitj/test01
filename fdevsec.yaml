@@ -22,7 +22,7 @@ dast:
   full_scan: true
 
 resource:
-  serial_scan: true #true|false
+  serial_scan: false #true|false
 
 fail_pipeline:
   risk_rating: 9
