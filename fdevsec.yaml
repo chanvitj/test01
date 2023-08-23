@@ -25,5 +25,5 @@ resource:
   serial_scan: false #true|false
 
 fail_pipeline:
-  risk_rating: 9
+  risk_rating: 8
   
