@@ -14,7 +14,7 @@ pwd="zxcv@asdf"
 def Home():
    hostname=socket.gethostname()
    ipAddr=socket.gethostbyname(hostname)
-   return "<h1>Hello Jew777, "+hostname+", "+ipAddr+"</h1>"
+   return "<h1>Hello Jew, "+hostname+", "+ipAddr+"</h1>"
 
 @app.route('/mobileapp')
 def mobileapp():
