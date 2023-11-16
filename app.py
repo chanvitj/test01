@@ -21,7 +21,7 @@ def mobileapp():
    return "<h1>This is return from mobile app.</h1>"
 
 ##### This part is for DAST testing #####
-@app.route('/9efc421d-d5e3-4a09-b1fe-6d3b63883378.html')
+@app.route('/9efc421d-d5e3-4a09-b1fe-6d3b63883378.ahtml')
 def uuidchecking():
    return ""
 
