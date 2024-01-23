@@ -11,7 +11,7 @@ scanners:
   - sca
   - iac
   - container
-
+  - dast
 
 languages:
   - python
